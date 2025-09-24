@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Random Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="guide">
+        <fieldset>
+            <legend> Game Guide </legend><br>
+            <p>How to Play the game ?</p><br>
+            <ol>
+                <li>
+                    1. A Random number will be already generated you just need to guess a number.
+                </li> 
+                <li>
+                    2. You will get 10 chances to guess the number.
+                </li>
+                <li>
+                    3. In the given box fill the value between 1 to 100
+                </li>
+                <li>
+                    4. Fill the correct numeric values.
+                </li>
+            </ol>
+        </fieldset>
+    </div>
+    <div class="formBox">
+        <form>
+            <label for="guessField">Guess a Number</label> <br>
+            <input type="text" id="guessField"> <br>
+            <input type="submit" id="submitBtn" value="Submit">
+        </form>
+    </div>
+
+    <div id="result">
+        <p>Your previous guesses: <span class="guesses"></span></p>
+        <p>Chances remaining: <span class="remainChance">10</span></p>
+        <p class="msgHelper"></p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

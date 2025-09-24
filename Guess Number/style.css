@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(22 30 101);
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.guide{
+    margin: 20px 310px;
+    width: 50vw;
+}
+
+.guide fieldset{
+    background-color: #2da6b9;
+}
+
+.guide ol{
+    padding: 20px;
+}
+
+.guide ol li{
+    list-style-type: none;
+    font-size: 21px;
+    line-height: 40px;
+}
+
+.hover-effectp{
+    background-color: rgb(22 30 101);
+    color: #fff;
+    transition: 0.3s ease;
+    transform: translateY(-3px);
+}
+
+.formBox{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    box-shadow: 6px 13px 20px 2px;
+    width: 35vw;
+    height: 58vh;
+    margin: 100px 31vw;
+}
+
+form{
+    line-height: 60px;
+    margin: 50px;
+}
+
+form input{
+    padding: 6px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+#submitBtn{
+    padding: 8px 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #46abbb;
+    border: 2px solid #fff;
+    border-radius: 18px;
+    box-shadow: 5px 10px 7px 0px black;
+}
+
+#submitBtn:hover{
+    background-color: rgb(22 30 101);
+    color: #fff;
+    transition: 0.3s ease;
+    transform: translateY(-3px);
+}
+
+#result{
+    margin: 10px;
+    line-height: 50px;
+}
