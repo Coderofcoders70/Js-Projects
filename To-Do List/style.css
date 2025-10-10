@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://images.pexels.com/photos/7718707/pexels-photo-7718707.jpeg') no-repeat center center/ cover;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-task-container{
+    width: 350px;
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+}
+
+input{
+    flex: 5;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+#add-task{
+    flex: 1;
+    font-size: 1.2rem;
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 10px;
+    color: green;
+    transition: .5s;
+}
+
+#add-task:hover{
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+}
+
+/* Javascript styling */
+
+.task{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.task li{
+    flex: 4;
+    list-style: none;
+    padding: 5px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.task button{
+    flex: 1;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.task .checkTask{
+    color: green;
+    margin-right: 5px;
+    border: 2px solid green;
+    font-size: 1.2rem;
+}
+
+.task .checkTask:hover{
+    color: white;
+    background-color: green;
+    transition: .5s;
+}
+
+.task .deleteTask{
+    color: red;
+    border: 2px solid red;
+    font-size: 1.2rem;
+}
+
+.task .deleteTask:hover{
+    color: white;
+    background-color: red;
+    transition: .5s;
+}
