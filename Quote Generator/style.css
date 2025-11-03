@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg") no-repeat center center/ cover;
+}
+
+.container{
+    height: 30vh;
+    width: 70vw;
+}
+
+.main-heading{
+    font-family: cursive;
+    text-align: center;
+    font-size: 13px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 60vw;
+    margin: auto;
+    background-color: rgba(83, 34, 15, 0.911);
+}
+
+.quote-box{
+    background-color: rgba(250, 235, 215, 0.849);
+    box-shadow: 0px 5px 5px 5px rgb(179, 177, 177);
+    border: 5px soild white;
+    border-radius: 10px;
+    width: 60vw;
+    margin: 20px auto;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+#person{
+    margin-top: 20px;
+    font-size: 18px;
+    color: brown;
+}
+
+.newQuote{
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid white;
+    background-color: rgb(110, 51, 11);
+    border-radius: 10px;
+}
+
+.newQuote:hover{
+    background-color: rgb(88, 50, 24);
+    box-shadow: 0px 5px 5px rgb(59, 33, 12);
+    color: antiquewhite;
+    transition: 0.3s ease;
+    transform: translateY(-4px);
+}
