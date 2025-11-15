@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 115px;
+}
+
+.button{
+    display: inline-flex;
+    height: 60px;
+    width: 65px;
+    border: 2px solid black;
+    border-radius: 14px;
+    box-shadow: 3px 8px 7px 0px;
+}
+
+#black{
+    background-color: #212121;
+}
+
+#black:hover{
+    background-color: #4e4d4d;
+    transition: background-color 0.3s ease;
+    transform: translateY(-3px);
+}
+
+#blue{
+    background-color: rgb(29, 199, 211);
+}
+
+#blue:hover{
+    background-color: rgb(154, 226, 231);
+    transition: background-color 0.3s ease;
+    transform: translateY(-3px);
+}
+
+#light-yellow{
+    background-color: rgb(226, 225, 126);
+}
+
+#light-yellow:hover{
+    background-color: rgb(238, 236, 148);
+    transition: background-color 0.3s ease;
+    transform: translateY(-3px);
+}
+
+#dark-blue{
+    background-color: rgb(41, 86, 138);
+}
+
+#dark-blue:hover{
+    background-color: rgb(125, 171, 224);
+    transition: background-color 0.3s ease;
+    transform: translateY(-3px);
+}
+
+#light-brown{
+    background-color: rgb(194, 145, 102);
+}
+
+#light-brown:hover{
+    background-color: rgb(235, 184, 140);
+    transition: background-color 0.3s ease;
+    transform: translateY(-3px);
+}
